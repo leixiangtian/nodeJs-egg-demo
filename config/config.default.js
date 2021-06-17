@@ -55,7 +55,7 @@ module.exports = appInfo => {
     // product业务：最大apk/sdk大小 500m
     maxProductSdkApkFileSize: 500*1024*1024,
     // product业务：最大文件大小 50m
-    maxProductDocFileSize: 50*1024*1024,
+    maxProductDocFileSize: 500*1024*1024,
     // 增加可上传文件类型
     fileExtensions: [
       '.xls', 'xlsx', '.md',
